@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "evolutiontiers",
+  "version": "${version}",
+  "name": "Evolution Tiers Tagger",
+  "description": "Display player's Evolution Tiers PvP ranks in their nametag!",
+  "authors": ["Evolution Tiers Team"],
+  "contact": {
+    "homepage": "https://api.evolutiontiers.dpdns.org/"
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/evolutiontiers/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.evolutiontiers.tagger.fabric.TierTaggerFabric"
+    ],
+    "ukulib": [
+      "net.evolutiontiers.tagger.config.UkulibIntegration"
+    ]
+  },
+  "mixins": [
+    "evolutiontiers.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${mcVersionRange}",
+    "fabricloader": ">=0.16",
+    "ukulib": ">=1.10.0"
+  }
+}

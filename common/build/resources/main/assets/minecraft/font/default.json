@@ -1,0 +1,60 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "evolutiontiers:mctiers/axe.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE701"]
+    },
+    {
+      "type": "bitmap",
+      "file": "evolutiontiers:mctiers/mace.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE702"]
+    },
+    {
+      "type": "bitmap",
+      "file": "evolutiontiers:mctiers/nethop.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE703"]
+    },
+    {
+      "type": "bitmap",
+      "file": "evolutiontiers:mctiers/pot.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE704"]
+    },
+    {
+      "type": "bitmap",
+      "file": "evolutiontiers:mctiers/smp.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE705"]
+    },
+    {
+      "type": "bitmap",
+      "file": "evolutiontiers:mctiers/sword.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE706"]
+    },
+    {
+      "type": "bitmap",
+      "file": "evolutiontiers:mctiers/uhc.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE707"]
+    },
+    {
+      "type": "bitmap",
+      "file": "evolutiontiers:mctiers/vanilla.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE708"]
+    }
+  ]
+}
